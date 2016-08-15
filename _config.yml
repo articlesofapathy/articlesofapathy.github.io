@@ -1,0 +1,12 @@
+# Site settings
+title: Articles of Apathy
+# email:
+# description: "Yet another blog"
+#baseurl: "//articlesofapathy.github.io"
+url: "//articlesofapathy.github.io"
+# twitter_username:
+# github_username:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
