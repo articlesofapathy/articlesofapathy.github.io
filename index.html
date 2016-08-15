@@ -4,15 +4,21 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+    <!-- <h1>Posts</h1> -->
 
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <h1 class="post-link">
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h1>
+          <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <div class="post-excerpt">
+              {{ post.excerpt }}
+          </div>
+          <a class="continue-reading" href="{{ post.url | prepend: site.baseurl }}">Continue reading →</a>
       </li>
-    {% endfor %}
+      {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>

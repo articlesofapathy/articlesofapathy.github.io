@@ -2,6 +2,7 @@
 layout: post
 title:  "Peritoskates' Curse"
 date:   2016-08-10
+excerpt_separator: <!--more-->
 ---
 
 # His Life
@@ -11,7 +12,8 @@ houses the twelve divinities whose job is to bring order to the entirety of
 creation, dwells a demigod in a makeshift shrine, completely enshrouded in vines
 and litter, as to give the occasional passer-by the impression that the Olympian
 municipality does not value sanitation and public health as much as one would
-expect. The demigod, whose name is known only to a handful remaining disciples
+expect. <!--more-->
+The demigod, whose name is known only to a handful remaining disciples
 and a few pedantic Greek scholars, leaves his residence only twice a year during
 the solstices to descend down the mountain, roam the surrounding cities, collect
 useless and abandoned items from people's homes, and retrieve them to his shrine
@@ -21,7 +23,6 @@ to approach this untidy museum and peek through the door, you would witness
 beside the cardboard boxes that tower all the way up to the ceiling and the
 miscellany that cover all visible surfaces, the demigod in his half year long
 slumber: Peritoskates, the god of collectors, accumulators and hoarders.
-
 
 The story of Peritoskates is a sad one, and a very sad one indeed. Conceived
 when Zeus, the god of faithfulness, decided to have a yet another romantic
