@@ -56,7 +56,7 @@ a:hover { color: #bc2323; }
 .wrap:after { clear: both; }
 .wrap {
     max-width: 35em;
-    padding: 12px 30px;
+    padding: 24px 30px;
     margin: 0 auto;
     zoom: 1;
 }
