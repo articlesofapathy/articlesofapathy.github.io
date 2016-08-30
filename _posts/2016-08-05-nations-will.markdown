@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 The July of 2016 was a time of great change for the Republic of Turkey, when the
-lord almighty had descended from his heavenly throne, and personally attended to
+lord almighty had descended from his heavenly throne, and personally attended
 the complete and utter cleansing of Central Anatolia from the vile things that
 once inhabited it.
 
