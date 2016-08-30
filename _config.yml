@@ -10,3 +10,5 @@ url: "//articlesofapathy.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+paginate: 5
+gems: [jekyll-paginate]

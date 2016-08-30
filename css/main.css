@@ -190,6 +190,14 @@ a:hover { color: #bc2323; }
     line-height: 1.2;
 }
 
+.pagination {
+    text-align: center;
+}
+
+.pagination .page_number {
+    padding: 1em;
+}
+
 .posts .post-link a {
     color: #555;
 }
