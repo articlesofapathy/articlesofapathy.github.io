@@ -174,9 +174,13 @@ a:hover { color: #bc2323; }
 /*     margin-bottom: 25px; */
 /* } */
 
-.posts { list-style-type: none; }
+.posts {
+    list-style-type: none;
+}
 
-.posts li { margin-bottom: 60px; }
+.post {
+    margin-bottom: 60px;
+}
 
 .posts .post-link, .post-link {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -195,7 +199,8 @@ a:hover { color: #bc2323; }
 }
 
 .pagination .page_number {
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .posts .post-link a {

@@ -4,11 +4,9 @@ layout: default
 
 <div class="home">
 
-    <!-- <h1>Posts</h1> -->
-
-  <ul class="posts">
+  <div class="posts">
     {% for post in paginator.posts %}
-      <li>
+      <div class="post">
           <h1 class="post-link">
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h1>
@@ -17,11 +15,10 @@ layout: default
               {{ post.excerpt }}
           </div>
           <a class="continue-reading" href="{{ post.url | prepend: site.baseurl }}">Continue reading →</a>
-      </li>
+      </div>
       {% endfor %}
-  </ul>
+  </div>
 
-  <!-- Pagination links -->
   <div class="pagination">
       {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
