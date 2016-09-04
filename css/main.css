@@ -417,7 +417,7 @@ a:hover { color: #bc2323; }
     .wrap { padding: 10px 12px; }
 
     .site-nav {
-        position: fixed;
+        /* position: fixed; */
         z-index: 10;
         top: 14px; right: 8px;
         background-color: #555;
