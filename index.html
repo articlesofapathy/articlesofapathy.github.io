@@ -6,7 +6,7 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
-      <div class="post">
+      <div class="postindex">
           <h1 class="post-link">
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h1>
