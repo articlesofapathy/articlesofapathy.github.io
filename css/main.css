@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic&subset=latin,latin-ext);
-@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:400,500';
+
 
 /* Base */
 /* ----------------------------------------------------------*/
@@ -183,13 +184,13 @@ a:hover { color: #bc2323; }
 }
 
 .posts .post-link, .post-link {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     border-bottom: 5px double rgba(0,0,0,.02);
     display: block;
     width: 100%;
     text-align: center;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    font-weight: 500;
     font-size: 180%;
-    font-weight: 400;
     padding-bottom: 10px;
     line-height: 1.2;
 }
@@ -245,6 +246,11 @@ a:hover { color: #bc2323; }
 .post-content > * { margin: 20px 0; }
 
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
 .post-content h1,
 .post-content h2,
 .post-content h3,
@@ -252,25 +258,25 @@ a:hover { color: #bc2323; }
 .post-content h5,
 .post-content h6 {
     line-height: 1.2em;
-    font-weight: 800;
+    /* font-weight: 800; */
     margin: 40px 0 20px;
     color: #444444;
 }
 
-.post-content h1 {
+h1 {
     font-size: 130%;
 }
 
 
-.post-content h2 {
+h2 {
     font-size: 120%;
 }
 
-.post-content h3 {
+h3 {
     font-size: 110%;
 }
 
-.post-content h4 {
+h4, h5, h6 {
     font-size: 100%;
 }
 
@@ -418,8 +424,8 @@ a:hover { color: #bc2323; }
 
     .site-nav {
         /* position: fixed; */
-        z-index: 10;
-        top: 14px; right: 8px;
+        /* z-index: 10; */
+        /* top: 14px; right: 8px; */
         background-color: #555;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
