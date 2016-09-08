@@ -19,7 +19,6 @@ html, body { height: auto; }
 body {
     text-align: left;
     /* margin: 2em auto 0.5em; */
-    line-height: 1.5em;
     /* max-width: 42em; */
 
     font-family: "Alegreya", Times New Roman, Times, serif;
@@ -40,8 +39,15 @@ h4 { font-size: 120%;}
 h5 { font-size: 110%;}
 h6 { font-size: 100%;}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1ex;
+}
+
 /* h2 { font-size: 125%; margin-bottom: .5em; } */
-p { margin: 1em 0; }
+/* p { margin-bottom: 2ex; } */
 
 /* a         { color: #2a7ae2; text-decoration: none; } */
 /* a:hover   { color: #000; text-decoration: underline; } */
@@ -180,7 +186,7 @@ a:hover { color: #bc2323; }
 }
 
 .postindex {
-    margin-bottom: 60px;
+    margin-bottom: 3.5em;
 }
 
 .posts .post-link, .post-link {
@@ -197,6 +203,7 @@ a:hover { color: #bc2323; }
 
 .pagination {
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .pagination .page_number {
@@ -241,44 +248,11 @@ a:hover { color: #bc2323; }
     margin-top: 5px;
 }
 
-.post-content { margin: 0 0 30px; }
+/* .post-content { margin: 0 0 30px; } */
 
-.post-content > * { margin: 20px 0; }
-
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-}
-
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-    line-height: 1.2em;
-    /* font-weight: 800; */
-    margin: 40px 0 20px;
-    color: #444444;
-}
-
-h1 {
-    font-size: 130%;
-}
+.post-content > * { margin-bottom: 2ex; }
 
 
-h2 {
-    font-size: 120%;
-}
-
-h3 {
-    font-size: 110%;
-}
-
-h4, h5, h6 {
-    font-size: 100%;
-}
 
 .post-content blockquote {
     border-left: 4px solid #e8e8e8;
