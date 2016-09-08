@@ -8,7 +8,7 @@ url: "//articlesofapathy.com"
 # github_username:
 
 # Build settings
-paginate: 5
+paginate: 3
 paginate_path: "/:num/"
 markdown: kramdown
 permalink: pretty
