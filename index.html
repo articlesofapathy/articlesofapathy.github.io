@@ -6,31 +6,31 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
-      <div class="postindex">
-          <h1 class="post-link">
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h1>
-          <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <div class="post-excerpt">
-              {{ post.excerpt }}
-          </div>
-          <a class="continue-reading" href="{{ post.url | prepend: site.baseurl }}">Continue reading →</a>
+    <div class="postindex">
+      <h1 class="post-link">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h1>
+      <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
       </div>
-      {% endfor %}
+      <a class="continue-reading" href="{{ post.url | prepend: site.baseurl }}">Continue reading →</a>
+    </div>
+    {% endfor %}
   </div>
 
   <div class="pagination">
-      {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">← Previous</a>
-      {% else %}
-      <!-- <span class="previous">Previous</span> -->
-      {% endif %}
-      <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next →</a>
-      {% else %}
-      <!-- <span class="next ">Next</span> -->
-      {% endif %}
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">← Previous</a>
+    {% else %}
+    <!-- <span class="previous">Previous</span> -->
+    {% endif %}
+    <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next →</a>
+    {% else %}
+    <!-- <span class="next ">Next</span> -->
+    {% endif %}
   </div>
 
   <p class="rss-subscribe">
